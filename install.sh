@@ -42,9 +42,9 @@ fi
 echo "create new password for root"
 sleep 3
 passwd root
-echo "create new password for kali"
+echo "create new password for user"
 sleep 3
-passwd kali
+ls /home | passwd
 
 #create a desktop for root
 mkdir /root/Desktop /root/Desktop/Kismet
